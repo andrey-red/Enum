@@ -6,9 +6,6 @@ This a proof of concept only. Not ready for production.
 use AndreyRed\Enum\Annotation\EnumOption;
 use AndreyRed\Enum\StringEnumeration;
 
-use AndreyRed\Enum\Annotation\EnumOption;
-use AndreyRed\Enum\StringEnumeration;
-
 final class TestStringEnum extends StringEnumeration
 {
     /** @EnumOption(value="one", name="Option one") */
