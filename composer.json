@@ -1,0 +1,32 @@
+{
+  "name": "redandrey/enum",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "red",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "doctrine/annotations": "^1.13"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpstan/phpstan": "^0.12.94"
+  },
+  "autoload": {
+    "psr-4": {
+      "AndreyRed\\Enum\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AndreyRed\\Enum\\Examples\\": "./examples",
+      "AndreyRed\\Enum\\Test\\": "./tests"
+    }
+  }
+}
