@@ -91,6 +91,17 @@ var_export(TestIntegerEnum::getAllValues());
 //  )
 ```
 
+```php
+var_export(TestIntegerEnum::getAllValues());
+
+//  array (
+//    0 => 'one',
+//    1 => 'two',
+//    2 => 'thirdOption',
+//    3 => 'fourthOption',
+//  )
+```
+
 Getting all names
 ```php
 var_export(TestIntegerEnum::getAllNames());
@@ -98,6 +109,17 @@ var_export(TestIntegerEnum::getAllNames());
 //  array (
 //    1 => 'Option one',
 //    2 => '2',
+//  )
+```
+
+```php
+var_export(TestIntegerEnum::getAllNames());
+
+//  array (
+//    'one' => 'Option one',
+//    'two' => 'two',
+//    'thirdOption' => 'Option three',
+//    'fourthOption' => 'fourthOption',
 //  )
 ```
 
