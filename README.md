@@ -113,7 +113,7 @@ var_export(TestIntegerEnum::getAllNames());
 ```
 
 ```php
-var_export(TestIntegerEnum::getAllNames());
+var_export(TestStringEnum::getAllNames());
 
 //  array (
 //    'one' => 'Option one',
