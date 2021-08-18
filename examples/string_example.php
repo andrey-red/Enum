@@ -9,8 +9,12 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
 $one = TestStringEnum::firstOption();
 $two = TestStringEnum::secondOption();
 
+//
+// add text
+//
+
 var_export([
-    'All values' => TestStringEnum::getAllValues(),
+    'All values!' => TestStringEnum::getAllValues(),
     'All names' => TestStringEnum::getAllNames(),
 
     '==== first option ====',

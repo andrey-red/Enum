@@ -17,10 +17,6 @@ var_export([
     'All values' => TestIntegerEnum::getAllValues(),
     'All names' => TestIntegerEnum::getAllNames(),
 
-    '==== first option ====',
-    'value1' => $one->value(),
-    'name1' => $one->name(),
-
     '==== second option ====',
     'value2' => $two->value(),
     'name2' => $two->name(),
