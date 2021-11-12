@@ -1,4 +1,4 @@
-This a proof of concept only. Not ready for production.
+This is a proof of concept only. Not ready for production.
 
 ## String enumeration:
 
