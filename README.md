@@ -92,7 +92,7 @@ var_export(TestIntegerEnum::getAllValues());
 ```
 
 ```php
-var_export(TestIntegerEnum::getAllValues());
+var_export(TestStringEnum::getAllValues());
 
 //  array (
 //    0 => 'one',
